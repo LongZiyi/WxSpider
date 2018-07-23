@@ -71,7 +71,7 @@ class Moments():
         TouchAction(self.driver).tap(x=295, y=1641).perform()
         # 手机输入
         phone = self.wait.until(EC.presence_of_element_located((By.ID, 'com.tencent.mm:id/hz')))
-        phone.set_text('13513513513')
+        phone.set_text('13513513510')
         # 下一步
         next = self.wait.until(EC.element_to_be_clickable((By.ID, 'com.tencent.mm:id/alr')))
         next.click()
